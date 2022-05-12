@@ -1,0 +1,163 @@
+/* CSS DOCUMENT */
+
+/* GENERAL */
+
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* RULES */
+
+/* HEADER */
+
+header
+{
+    background-color: #fff;
+}
+
+.Logo
+{
+    margin: 25px 0;
+    padding-left: 15px;
+}
+
+h3
+{
+    margin: 0;
+}
+
+p
+{
+    margin: 5px 0;
+}
+
+/* MAIN */
+
+main
+{
+    background-color: #16ABEC;
+    padding: 40px 0;
+    height: 80vh;
+}
+
+#Section1 , #Section2
+{
+    width: 55%;
+    background-color: #fff;
+    margin: 3px auto;
+    padding: 20px 15px;
+}
+
+/* SECTION 1 */
+
+#Section1 > button
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: #16ABEC 1px solid;
+    font-size: 12px;
+    color: #16ABEC;
+    background-color: #fff;
+}
+
+#Section1 > button:first-child
+{
+    color: #fff;
+    background-color: #16ABEC;
+}
+
+/* SECTION 2 */
+
+#tasks p
+{
+    display: inline-block;
+}
+
+/* Container 1 e 2 e 3 */
+
+#Container1,#Container2
+{
+    margin: 20px 0;
+}
+
+/* SIMBOLI */
+
+#trirev
+{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#check
+{
+    color: #C3E3DD;
+    border: 1px solid #C3E3DD;
+}
+
+#err
+{
+    color: #E94137;
+    border: 1px solid #E94137;
+}
+
+#check,#err
+{
+    font-size: 12px;
+}
+
+#check,#err
+{
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* BOTTONI SECTION 2*/
+
+#Section2 button
+{
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    color: #fff;
+}
+
+/* Classi Bottoni Bg-color */
+
+.editorial
+{
+    background-color: #16ABEC;
+}
+
+.various
+{
+    background-color: #9C72E2;
+}
+
+.recruiting
+{
+    background-color: #63BFA8;
+}
+
+.mobile-sales
+{
+    background-color: #F29D35;
+}
+
+.website
+{
+    background-color: #D863A1;
+}
